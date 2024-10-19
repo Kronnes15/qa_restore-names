@@ -27,7 +27,7 @@ describe('restoreNames', () => {
 
   it('should handle undefined input gracefully', () => {
     const input = undefined;
-    const expected = ''; // Changed to match the function behavior
+    const expected = '';
 
     expect(restoreNames(input)).toBe(expected);
   });
